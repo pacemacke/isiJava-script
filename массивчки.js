@@ -1,10 +1,17 @@
 var arr = [25,56,51,1,52,2,35,79,85,9885,3];
-
-//for (let k = 0; k < arr.length;k=k+2) {}
-    [arr[0], arr[1] = arr[1], arr[0]]
-    [arr[1], arr[2] = arr[2], arr[1]];
-    
-    console.log(arr);
+var num = prompt('Введите число:')*1;
+var zt = 0;
+for (k=0;k<=arr.length;k++){
+if (num === arr[k]){
+alert('Номер вашего числа в массиве:'+(k+1));
+//alert(k);
+zt++;
+break;
+}
+if (zt=0) {
+alert('Вашего числа в массиве нет');
+}
+}
 /*попытка 
 arr.sort(function wth(a,b,c) {
     return a-b
